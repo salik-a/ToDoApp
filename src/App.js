@@ -1,19 +1,56 @@
-import React,{useState} from 'react';
+import React,{useState, useEffect} from 'react';
 import { TouchableOpacity, Text, SafeAreaView, StyleSheet, View, KeyboardAvoidingView, Platform, TextInput, Keyboard } from 'react-native';
-import Task from './components/Task'
+import Task from './components/Task';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 function App() {
   const [task, setTask] = useState();
   const [taskItems, setTaskItems] = useState([])
+  useEffect(() => {
+    getData()
+  }, []);
+
+
+
   const handleAddTask = () => {
     Keyboard.dismiss();
-    setTaskItems([...taskItems, task])
-    setTask(null);
+    //setTaskItems([...taskItems, task])
+    //setTask(null);
+    storeData(uuidv4(),task)
   }
-  const completeTask = (index) => {
+  /*const completeTask = (index,item) => {
     let itemsCopy = [...taskItems]
     itemsCopy.splice(index, 1);
     setTaskItems(itemsCopy);
+   
+  }*/
+  const storeData = async (index,item) => {
+    try {
+      await AsyncStorage.setItem(index, item)
+    } catch (e) {
+      console.log(e)
+    }
+    
+  }
+  function uuidv4() {
+    return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+      var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+      return v.toString(16);
+    });
+  }
+
+  
+
+  const getData = async () => {
+    try {
+      const keys = await AsyncStorage.getAllKeys();
+      const result = await AsyncStorage.multiGet(keys);
+      setTaskItems(result)
+      
+      //return result.map(req =>console.log(req));
+    } catch (error) {
+      console.error(error)
+    }
   }
   return (
     <View style={styles.container}>
@@ -24,8 +61,9 @@ function App() {
         <View style={styles.items}>
           {
             taskItems.map((item, index) => {
+              console.log(item)
               return (
-                <TouchableOpacity key= {index} onPress={() => completeTask(index)}>
+                <TouchableOpacity key= {index} onPress={() => completeTask(index,item)}>
                   <Task key={index} text={item}/>
                 </TouchableOpacity>
               )
