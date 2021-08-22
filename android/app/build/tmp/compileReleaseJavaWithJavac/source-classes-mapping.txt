@@ -1,0 +1,9 @@
+com/todoapp/MainActivity.java
+ com.todoapp.MainActivity
+com/todoapp/BuildConfig.java
+ com.todoapp.BuildConfig
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/todoapp/MainApplication.java
+ com.todoapp.MainApplication
+ com.todoapp.MainApplication$1

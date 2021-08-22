@@ -10,9 +10,11 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@klarna/react-native-vector-drawable": "^0.3.0",
     "@react-native-async-storage/async-storage": "^1.15.5",
     "react": "17.0.1",
-    "react-native": "0.64.2"
+    "react-native": "0.64.2",
+    "react-native-vector-image": "^0.3.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
