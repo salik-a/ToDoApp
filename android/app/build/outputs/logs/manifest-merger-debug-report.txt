@@ -10,6 +10,7 @@ MERGED from [com.facebook.flipper:flipper-network-plugin:0.75.1] /home/salika/.g
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.75.1] /home/salika/.gradle/caches/transforms-2/files-2.1/13e0ca18817a9e59a8c4a94704ec8c3c/jetified-flipper-fresco-plugin-0.75.1/AndroidManifest.xml:8:1-15:12
 MERGED from [:klarna_react-native-vector-drawable] /home/salika/patika/reactNative/ToDoApp/node_modules/@klarna/react-native-vector-drawable/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-async-storage_async-storage] /home/salika/patika/reactNative/ToDoApp/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:lottie-react-native] /home/salika/patika/reactNative/ToDoApp/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.64.2] /home/salika/.gradle/caches/transforms-2/files-2.1/f48ad73390f9d41c4966ce25bccc3bb7/jetified-react-native-0.64.2/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/salika/.gradle/caches/transforms-2/files-2.1/5c64f35c4f864d4cd139ccbbff91ceb9/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [org.webkit:android-jsc:r245459] /home/salika/.gradle/caches/transforms-2/files-2.1/65337ca8c0783fc27be60d476a5f6b75/jetified-android-jsc-r245459/AndroidManifest.xml:2:1-11:12
@@ -23,6 +24,7 @@ MERGED from [com.facebook.fresco:memory-type-java:2.2.0] /home/salika/.gradle/ca
 MERGED from [com.facebook.fresco:imagepipeline-native:2.2.0] /home/salika/.gradle/caches/transforms-2/files-2.1/cf4b730f71bf97441bdf4ebe8cfeeb88/jetified-imagepipeline-native-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:soloader:2.2.0] /home/salika/.gradle/caches/transforms-2/files-2.1/c35a46a0a862651f1e0a89250dcee30d/jetified-soloader-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.soloader:soloader:0.10.1] /home/salika/.gradle/caches/transforms-2/files-2.1/5fb5c0c623111e89d0cb2cc6cbe55df8/jetified-soloader-0.10.1/AndroidManifest.xml:2:1-13:12
+MERGED from [com.airbnb.android:lottie:3.4.0] /home/salika/.gradle/caches/transforms-2/files-2.1/7b9663c45e5a1cb9b39c2ee80a23babd/jetified-lottie-3.4.0/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] /home/salika/.gradle/caches/transforms-2/files-2.1/93e99cc524f9e4f775937ead40ad032e/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/salika/.gradle/caches/transforms-2/files-2.1/ce476dc2f1f7d59691ad234de1ec2fb1/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/salika/.gradle/caches/transforms-2/files-2.1/f66a3370e9e4f8cb0ae0c6936c538c41/jetified-imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:2:1-9:12
@@ -76,6 +78,8 @@ uses-permission#android.permission.INTERNET
 ADDED from /home/salika/patika/reactNative/ToDoApp/android/app/src/main/AndroidManifest.xml:4:5-67
 MERGED from [com.facebook.flipper:flipper:0.75.1] /home/salika/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:15:5-67
 MERGED from [com.facebook.flipper:flipper:0.75.1] /home/salika/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:15:5-67
+MERGED from [:lottie-react-native] /home/salika/patika/reactNative/ToDoApp/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:lottie-react-native] /home/salika/patika/reactNative/ToDoApp/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-67
 	android:name
 		ADDED from /home/salika/patika/reactNative/ToDoApp/android/app/src/main/AndroidManifest.xml:4:22-64
 application
@@ -86,6 +90,8 @@ MERGED from [com.facebook.react:react-native:0.64.2] /home/salika/.gradle/caches
 MERGED from [com.facebook.react:react-native:0.64.2] /home/salika/.gradle/caches/transforms-2/files-2.1/f48ad73390f9d41c4966ce25bccc3bb7/jetified-react-native-0.64.2/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.10.1] /home/salika/.gradle/caches/transforms-2/files-2.1/5fb5c0c623111e89d0cb2cc6cbe55df8/jetified-soloader-0.10.1/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.10.1] /home/salika/.gradle/caches/transforms-2/files-2.1/5fb5c0c623111e89d0cb2cc6cbe55df8/jetified-soloader-0.10.1/AndroidManifest.xml:11:5-20
+MERGED from [com.airbnb.android:lottie:3.4.0] /home/salika/.gradle/caches/transforms-2/files-2.1/7b9663c45e5a1cb9b39c2ee80a23babd/jetified-lottie-3.4.0/AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:3.4.0] /home/salika/.gradle/caches/transforms-2/files-2.1/7b9663c45e5a1cb9b39c2ee80a23babd/jetified-lottie-3.4.0/AndroidManifest.xml:9:5-20
 MERGED from [androidx.core:core:1.3.0] /home/salika/.gradle/caches/transforms-2/files-2.1/1be83826333d1146e3386a2f4338d6b3/core-1.3.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.3.0] /home/salika/.gradle/caches/transforms-2/files-2.1/1be83826333d1146e3386a2f4338d6b3/core-1.3.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/salika/.gradle/caches/transforms-2/files-2.1/af9af86a2035b10a0514f89f66cf8a9a/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
@@ -152,6 +158,8 @@ MERGED from [:klarna_react-native-vector-drawable] /home/salika/patika/reactNati
 MERGED from [:klarna_react-native-vector-drawable] /home/salika/patika/reactNative/ToDoApp/node_modules/@klarna/react-native-vector-drawable/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-async-storage_async-storage] /home/salika/patika/reactNative/ToDoApp/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-async-storage_async-storage] /home/salika/patika/reactNative/ToDoApp/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:lottie-react-native] /home/salika/patika/reactNative/ToDoApp/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:lottie-react-native] /home/salika/patika/reactNative/ToDoApp/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-native:0.64.2] /home/salika/.gradle/caches/transforms-2/files-2.1/f48ad73390f9d41c4966ce25bccc3bb7/jetified-react-native-0.64.2/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.64.2] /home/salika/.gradle/caches/transforms-2/files-2.1/f48ad73390f9d41c4966ce25bccc3bb7/jetified-react-native-0.64.2/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/salika/.gradle/caches/transforms-2/files-2.1/5c64f35c4f864d4cd139ccbbff91ceb9/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
@@ -178,6 +186,8 @@ MERGED from [com.facebook.fresco:soloader:2.2.0] /home/salika/.gradle/caches/tra
 MERGED from [com.facebook.fresco:soloader:2.2.0] /home/salika/.gradle/caches/transforms-2/files-2.1/c35a46a0a862651f1e0a89250dcee30d/jetified-soloader-2.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.soloader:soloader:0.10.1] /home/salika/.gradle/caches/transforms-2/files-2.1/5fb5c0c623111e89d0cb2cc6cbe55df8/jetified-soloader-0.10.1/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.soloader:soloader:0.10.1] /home/salika/.gradle/caches/transforms-2/files-2.1/5fb5c0c623111e89d0cb2cc6cbe55df8/jetified-soloader-0.10.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.airbnb.android:lottie:3.4.0] /home/salika/.gradle/caches/transforms-2/files-2.1/7b9663c45e5a1cb9b39c2ee80a23babd/jetified-lottie-3.4.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:3.4.0] /home/salika/.gradle/caches/transforms-2/files-2.1/7b9663c45e5a1cb9b39c2ee80a23babd/jetified-lottie-3.4.0/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat:1.2.0] /home/salika/.gradle/caches/transforms-2/files-2.1/93e99cc524f9e4f775937ead40ad032e/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.2.0] /home/salika/.gradle/caches/transforms-2/files-2.1/93e99cc524f9e4f775937ead40ad032e/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/salika/.gradle/caches/transforms-2/files-2.1/ce476dc2f1f7d59691ad234de1ec2fb1/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41

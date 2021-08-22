@@ -15,6 +15,8 @@ import java.util.ArrayList;
 import com.klarna.vectordrawable.VectorDrawablePackage;
 // @react-native-async-storage/async-storage
 import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
+// lottie-react-native
+import com.airbnb.android.react.lottie.LottiePackage;
 
 public class PackageList {
   private Application application;
@@ -61,7 +63,8 @@ public class PackageList {
     return new ArrayList<>(Arrays.<ReactPackage>asList(
       new MainReactPackage(mConfig),
       new VectorDrawablePackage(),
-      new AsyncStoragePackage()
+      new AsyncStoragePackage(),
+      new LottiePackage()
     ));
   }
 }

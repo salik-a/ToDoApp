@@ -4,11 +4,16 @@ import { TouchableOpacity, Text, SafeAreaView, StyleSheet, View, KeyboardAvoidin
 import VectorImage from 'react-native-vector-image';
 import checkcircle from './assets/checkcircle.svg';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import LottieView from 'lottie-react-native';
+
 const Task = () => {
     const [task, setTask] = useState();
-    const [taskItems, setTaskItems] = useState([])
+    const [taskItems, setTaskItems] = useState([]);
+    const [loading, setLoading] = useState(true);
+    const delay = ms => new Promise(res => setTimeout(res, ms));
     useEffect(() => {
-        getData()
+        getData();
+        
     }, []);
 
     const removeValue = async (key) => {
@@ -53,12 +58,16 @@ const Task = () => {
         const keys = await AsyncStorage.getAllKeys();
         const result = await AsyncStorage.multiGet(keys);
         setTaskItems(result)
-
+        await delay(1000);
+        setLoading(false);
         } catch (error) {
         console.error(error)
         }
     }
 
+    if (loading) { 
+        return <LottieView source= { require('./assets/loading.json')} autoPlay loop/>;
+    }
 
     return (
         <View style={styles.container}>
