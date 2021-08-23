@@ -24,6 +24,10 @@
         "source": "/home/salika/patika/reactNative/ToDoApp/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/home/salika/patika/reactNative/ToDoApp/android/app/build/intermediates/res/merged/release/raw_src_components_assets_loading.json.flat",
+        "source": "/home/salika/patika/reactNative/ToDoApp/android/app/build/generated/res/react/release/raw/src_components_assets_loading.json"
+    },
+    {
         "merged": "/home/salika/patika/reactNative/ToDoApp/android/app/build/intermediates/res/merged/release/drawable_checkcircle_svg_b965d6.xml.flat",
         "source": "/home/salika/patika/reactNative/ToDoApp/android/app/src/main/res/drawable/checkcircle_svg_b965d6.xml"
     },

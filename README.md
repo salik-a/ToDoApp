@@ -1,5 +1,5 @@
 # ToDoApp
- ### React Native ile todo uygulaması yaptım. Yapılacakları input kısmına yazabilir sonra + tuşu ile listeye ekleyebilir, üzerine basınca silebilirsiniz.
+ ### React Native ile todo uygulaması yaptım. Yapılacakları input kısmına yazabilir sonra + tuşu ile listeye ekleyebilir, görevi tamamladıktan sonra ✓ tuşuna basarak silebilirsiniz.
  
  
 <div>
